@@ -43,6 +43,7 @@ Game.prototype.createTowers = function() {
 	for (var i = 0; i < NUM_TOWERS; i++) {
 
 		// here we are creating tower obj calling constructor and passing all the parameters
+		// pay attention to the context of dropHandler, take a look at handleDrop first
 		tower = // ...
 		this.towers.push(tower);
 
@@ -63,6 +64,7 @@ Game.prototype.createDisks = function() {
 	for (var i = 0; i < this.numDisks; i++) {
 
 		// here we are creating disk obj calling constructor and passing all the parameters
+		// pay attention to the context of dragHandler, take a look at handleDrag first
 		var disk = //...
 		this.disks.push(disk);
 

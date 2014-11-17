@@ -18,12 +18,12 @@ Disk.prototype.setTower = function(tower) {
 	this.tower = tower;
 };
 
-// returns jquery image obj for specific disk, selected by id
+// returns jQuery obj containig image element for specific disk, selected by id
 Disk.prototype.getImageElement = function() {
 
 };
 
-// creates and returns jquery img obj
+// creates and returns jQuery obj, containing img element
 // <img id="diskig1" src="img/disk1.gif" width="100" height="18" />
 Disk.prototype.createImageElement = function() {
 
@@ -55,6 +55,6 @@ Disk.prototype.position = function() {
 	var left = this.tower.calcDiskLeft(this.width);
 
 
-	// set here absolute position of elem
+	// set here absolute position for the elem
 
 };

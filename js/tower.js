@@ -16,23 +16,23 @@ Tower.prototype.getDisks = function() {
 	return this.disks;
 };
 
-// returns jquery canvas obj selected by id
+// returns jquery obj, containing canvas selected by id
 Tower.prototype.getElement = function() {
 
 };
 
-// returns jquery image obj for specific tower selected by id
+// returns jquery obj, containing image of specific tower selected by id
 Tower.prototype.getImageElement = function() {
 
 };
 
-// creates and returns jquery canvas obj
+// creates and returns jquery obj, containing canvas elem
 // for ex. <canvas class="tower" id="tower1" width="100" height="18" />
 Tower.prototype.createElement = function() {
 
 };
 
-// creates and returns jquery img obj
+// creates and returns jquery obj containing image of a tower
 // <img id="towerimg1" src="img/tower.gif" />
 Tower.prototype.createImageElement = function() {
 
