@@ -1,0 +1,49 @@
+/*
+ * $Id: $
+ *
+ * Copyright (C) 2012 Stoyan Rachev (stoyanr@gmail.com)
+ *
+ * This program is free software; you can redistribute it and/or modify it
+ * under the terms of the GNU General Public License as published by the
+ * Free Software Foundation; either version 2, or (at your option) any
+ * later version.
+ *
+ * This program is distributed in the hope that it will be useful, but
+ * WITHOUT ANY WARRANTY; without even the implied warranty of
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU
+ * General Public License for more details.
+ */
+ 
+#title {
+	font-size: 2em;
+	font-weight: bold;
+	margin: 10px 0px 10px;
+	text-align: center;
+}
+
+#images {
+	display: none;
+}
+
+#background {
+	margin-left: auto;
+	margin-right: auto;
+	background-image: url('../img/background.jpg');
+	width: 720px;
+	height: 300px;
+}
+
+#fill {
+	width: 720px;
+	height: 20px;
+}
+
+#game {
+	width: 720px;
+	height: 280px;
+	position: relative;
+}
+
+#footer {
+	width: 100%;
+}	
